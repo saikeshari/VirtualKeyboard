@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #004134;
+}
+
+hr{
+    height: 4px;
+    background-color: #004134;
+    border:none;
+    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.keyboard{
+    background-color: #004134;
+    padding-top: 3px;
+    height: 305px;
+    margin-top: 10px;
+    opacity: 0;
+    margin-top: 29px;
+    transition: 0.3s linear;
+    /* display: none; */
+}
+
+.showkeyboard
+{
+    background-color: #004134;
+    padding-top: 3px;
+    height: 305px;
+    margin-top: 10px;
+    margin-top: 29px;
+    /* display: block; */
+    opacity: 1;
+}
+
+
+#numbers, #alphabet1, #alphabet2, #alphabet3, #spacekey
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#numbers button, #alphabet1 button, #alphabet2 button, #alphabet3 button, #spacekey button{
+    height: 55px;
+    width: 55px;
+    background: #31685d;
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
+    cursor: pointer;;
+}
+
+#numbers button:nth-child(11)
+{
+    width: 120px;
+}
+
+#alphabet2 button:nth-child(1)
+{
+    width: 100px;
+    margin-right: 0;
+    padding-left: 24px;
+}
+
+#alphabet2 button:nth-child(1) svg
+{
+    align-items: center;
+}
+
+#alphabet2 button:nth-child(11)
+{
+    width: 80px;
+}
+
+#alphabet3 button:nth-child(1)
+{
+    width: 80px;
+    background: #03251f;
+}
+
+#spacekey button{
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.caps{
+    text-transform: uppercase;
+}
+
+.circle-yellow{
+    fill: white;
+}
+
